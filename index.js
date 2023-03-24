@@ -46,6 +46,7 @@ console.log("4. for...of");
 /* 4. The for..of loop */
 console.log(Object.values(user));
 const fruits = ["apple", "banana", "mango"];
+//for (const value of Object.entries(user)) { // gehört zu dem auskommentierten code in der schleife
 for (const value of fruits) {
   console.log(value);
   // const key = value[0];
